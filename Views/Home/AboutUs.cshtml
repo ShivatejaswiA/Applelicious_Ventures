@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #FAEBD7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #F5F5DC;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #2E8B57;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .text-center {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .display-4 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #8B0000;
+        }
+
+        .lead {
+            font-size: 1.2em;
+            color: #556B2F;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #8B0000;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #6B8E23;
+            }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .col-md-4 {
+            flex: 0 0 30%;
+            background-color: #FFF8DC;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .col-md-4 h2 {
+                color: #2E8B57;
+                margin-bottom: 15px;
+            }
+
+            .col-md-4 p {
+                font-size: 1em;
+                color: #333;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+
+        <div class="text-center">
+            <h1 class="display-4">Welcome to Canada's Finest Apples</h1>
+            <p class="lead">Home to the Best Apples in the World</p>
+            <hr />
+            <p>Discover our wide variety of premium apples, grown with love and care in the lush orchards of Canada.</p>
+            <p><a href="/apples" class="btn btn-primary btn-lg">Explore Our Apples</a></p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Our Story</h2>
+                <p>We have been cultivating the finest apples for over a century. Our dedication to quality and sustainability ensures that every apple is perfect.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Varieties</h2>
+                <p>From crisp and tart to sweet and juicy, we offer a variety of apple types to suit every palate. Our apples are picked at peak ripeness for maximum flavor.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Where to Buy</h2>
+                <p>Find out where you can purchase our delicious apples, whether at a local farmer's market, grocery store, or online.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
