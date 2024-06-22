@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Applelicious_Ventures.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240621025452_InitialCreate")]
+    [Migration("20240622203330_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -46,7 +46,7 @@ namespace Applelicious_Ventures.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 4)");
 
                     b.Property<string>("Shape")
                         .HasColumnType("nvarchar(max)");
