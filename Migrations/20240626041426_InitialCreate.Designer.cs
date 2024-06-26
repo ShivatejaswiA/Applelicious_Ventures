@@ -9,10 +9,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Applelicious_Ventures.Data.Migrations
+namespace Applelicious_Ventures.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240622203330_InitialCreate")]
+    [Migration("20240626041426_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
