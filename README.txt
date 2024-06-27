@@ -1,18 +1,4 @@
-﻿DELTA Team
-2024-06-27
-1340 EDT
-
-At least one of the published deployments will have Authentication & Authorization completed, with one 'admin' account (CRUD), and one 'guest' (ReadOnly) account. Include these usernames and passwords in the README and the 'Create Submission' field for assessment.
-References to get started:
-
-
-1340 - 
-
-1350 - 
-
-1400 - 
-
-
+﻿
 ﻿DELTA Team
 2024-06-13
 1340 EDT

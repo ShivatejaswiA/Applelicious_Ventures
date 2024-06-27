@@ -115,8 +115,20 @@
                 <p>Shape: @Html.DisplayFor(modelItem => item.Shape)</p>
                 <p class="price">$@Html.DisplayFor(modelItem => item.Price)</p>
 
+
+                <div class="actions">
+                    <a href="/apples/Edit/@item.Id" class="btn btn-primary">Edit</a>
+                </div>
+                <div class="actions">
+                    <a href="/apples/Create/@item.Id" class="btn btn-primary">Create</a>
+                </div>
+                <div class="actions">
+                    <a href="/apples/Delete/@item.Id" class="btn btn-primary"></a>
+                </div>
             </div>
+
         }
+
     </div>
 </body>
 </html>
