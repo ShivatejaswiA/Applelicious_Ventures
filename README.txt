@@ -107,12 +107,12 @@ Resumed our work on frontend development.
 1500-The app is working fine locally but on web we are facing problem.
 We are finding the solution by troubleshooting.
 
-**We have submitted everything include troubleshoot screenshot on blackboard as well. 
+**We have submitted everything include troubleshoot screenshots on blackboard as well. 
 
 
 2024-06-21
 
-12:00 - 18:00 PM - We have redeployed the project as it created the issue which tool so much time.
+12:00 - 18:00 PM - We have redeployed the website as it created the issue which tool so much time.
 
 2024-06-26 
 
@@ -120,7 +120,7 @@ We are finding the solution by troubleshooting.
 
 2024_06-27 
 
-We worked on Authorization where we gave rights for admin i.e lol@abc.com where those users who have admin rights can explore our products and password is shared below .
+We worked on Authentication Authorization where we gave rights for admin i.e lol@abc.com where those users who have admin rights can explore our products and password is shared below .
 
 ADMIN
 Username - lol@abc.com
@@ -129,6 +129,8 @@ Password - lol@321 (from login this ,User can explore our products.)
 READ-ONLY 
 Username - anzanpanta@gmail.com
 Password - WCMM6EfUJha2Dav!
+
+
 
 
 
