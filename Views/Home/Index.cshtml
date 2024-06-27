@@ -1,6 +1,10 @@
 ﻿﻿@{
     ViewData["Title"] = "Applelicious_Ventures";
 }
+
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,7 +106,12 @@
         <div class="box">
             <h2>Welcome to Applelicious Ventures</h2>
             <p>Discover the freshest and most delicious apples grown with care and passion in our orchards.</p>
+            
+            @if (SignInManager.IsSignedIn(User))
+{
             <a href="/apples" class="btn btn-primary">Explore Our Products</a>
+}
+else {}
         </div>
 
         <!-- Additional Content Sections can be added here -->
