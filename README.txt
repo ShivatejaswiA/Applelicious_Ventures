@@ -122,8 +122,13 @@ We are finding the solution by troubleshooting.
 
 We worked on Authorization where we gave rights for admin i.e lol@abc.com where those users who have admin rights can explore our products and password is shared below .
 
+ADMIN
 Username - lol@abc.com
 Password - lol@321 (from login this ,User can explore our products.)
+
+READ-ONLY 
+Username - anzanpanta@gmail.com
+Password - WCMM6EfUJha2Dav!
 
 
 
